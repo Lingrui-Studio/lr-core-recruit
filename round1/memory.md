@@ -14,12 +14,12 @@
 #include <stdio.h>
 
 // 获取一个字符串
-char *get_name(void) {
+char *get_name() {
     char name[] = "Lingrui";
     return name;
 }
 
-int main(void) {
+int main() {
     char *name = get_name();
     printf("%s\n", name);
     return 0;
@@ -32,7 +32,7 @@ int main(void) {
 #include <stdlib.h>
 #include <string.h>
 
-int main(void) {
+int main() {
     while (1) {
         char *request = malloc(1024);
         if (request == NULL) {

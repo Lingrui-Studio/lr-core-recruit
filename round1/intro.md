@@ -72,7 +72,7 @@ int main() {
 }
 ```
 
-分别运行这两个程序并获取它们它们运行的时间：
+分别运行这两个程序并获取它们运行的时间：
 
 ```bash
 ~/proj/ctemplate/examples main* ❯ gcc loop1.c -o loop1
