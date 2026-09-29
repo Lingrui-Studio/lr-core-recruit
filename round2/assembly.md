@@ -1,4 +1,6 @@
-# 课题一：编译过程与汇编语言
+# 课题二：编译过程与汇编语言
+
+> 预计耗时：4~7 天
 
 ## 引入
 
@@ -28,7 +30,7 @@ int sum_to(int n) {
 
 ## 学习要求
 
-- 学习 **CSAPP 第三章：程序的机器级表示**
+- 学习 **CSAPP 第三章：程序的机器级表示**，统一要求 x86 Linux 环境，AT&T 格式
 - 参考 [深入理解 C++ 编译过程：从源码到可执行程序的完整工具链](https://zhuanlan.zhihu.com/p/1927771884738551922) 简单了解 C/C++ 编译过程（文中以 C++ 为例，你可以在 AI 的帮助下用 C 语言走一遍编译过程）
 - 参考 [CSAPP 第三章心得体会](https://zhuanlan.zhihu.com/p/2038903192025556058) 了解 bomb lab 的一些 tips
 - 用模板仓库创建一个自己的仓库然后按 README 指引完成任务：https://github.com/Lingrui-Studio/lingrui-bomb-lab
