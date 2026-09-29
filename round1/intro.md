@@ -26,6 +26,11 @@ int main() {
 ~/proj/ctemplate/examples main* ❯ gcc fo.c -o fo
 ~/proj/ctemplate/examples main* ❯ ./fo
 hello
+hello
+hello
+hello
+hello
+hello
 ```
 
 可以看到输出了 6 个`hello`，但是我们若是通过`>`将输出重定向到文件中，结果却不是 6 个，而是 8 个：
@@ -33,6 +38,13 @@ hello
 ```bash
 ~/proj/ctemplate/examples main* ❯ ./fo > fo.txt
 ~/proj/ctemplate/examples main* ❯ cat fo.txt
+hello
+hello
+hello
+hello
+hello
+hello
+hello
 hello
 ```
 
