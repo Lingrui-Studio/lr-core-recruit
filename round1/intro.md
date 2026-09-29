@@ -107,6 +107,7 @@ int main() {
 
 - [夏令营 - Lingrui-Wiki](https://wiki.lingrui.studio/summer_camp/)
 - [B 站【CSAPP-深入理解计算机系统】](https://www.bilibili.com/video/BV1cD4y1D7uR/)：CSAPP 中文视频教程
+- [CSAPP 中文阅读](https://sunnymaria.github.io/csapp-zh-markdown/)
 - [计算机系统漫游](https://fengmuzi2003.gitbook.io/csapp3e)：CSAPP 重点解读
 
 需要注意的是，**寻找适合自己的学习资料**也是我们想考察的一项重要能力，所以若你觉得看书效率太低了或是不能很好地理解，都可以自己找其他的学习资料。优先推荐在浏览器中搜索关键词找比较系统性的书籍、技术博客、和知乎文章，当然你也可以问 AI 有没有合适的资料。
