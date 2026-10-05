@@ -1,12 +1,10 @@
 # 课题八：Malloc Lab
 
-一轮的【内存管理】里你已经会"用" `malloc` 和 `free` 了；这一次反过来，**你来当那个实现者**。
+一轮的【内存管理】里你已经会“用”`malloc` 和 `free` 了；这一次反过来，**你来当那个实现者**。
 
-你要写一个动态内存分配器：维护一整块堆，自己安排空闲块的组织方式，实现 `mm_malloc` / `mm_free` / `mm_realloc`。评测会同时看两件事——**空间利用率**和**吞吐率**，所以"能跑"远远不够，你要在两者之间做权衡。这是全书最像"工程"的一道题，也是"指针玩明白了"的最好证明。
+你要写一个动态内存分配器：维护一整块堆，自己安排空闲块的组织方式，实现 `mm_malloc` / `mm_free` / `mm_realloc`。评测会同时看两件事——**空间利用率**和**吞吐率**，所以“能跑”远远不够，你要在两者之间做权衡。这是全书最像“工程”的一道题，也是“指针玩明白了”的最好证明。
 
-任务来自 CMU 的经典实验 **Malloc Lab**。[在此](https://csapp.cs.cmu.edu/3e/labs.html)下载 README 和 Self-Study Handout 即可。
-
-> 好好读官方 writeup。
+任务来自 CMU 的经典实验 **Malloc Lab**。官网的资料过于老旧（二十多年前的版本了），且缺少测试用的 traces，所以我们提供了一个新版，请 Star、Fork 后细看 README：https://github.com/Lingrui-Studio/lr-malloc-lab
 
 ## 学习要求
 
@@ -14,8 +12,8 @@
 
 ## 提交要求
 
-- 个人 Malloc Lab 的 GitHub 仓库链接（注意 commit 前先 `make clean`）
-- 实验结果：附上 `mdriver` 的评测输出（空间利用率与吞吐率），以及堆一致性检查的结果
+- 个人 Fork 的 lr-malloc-lab 的 GitHub 仓库链接
+- 实验结果：粘贴 `make score` 的结果（需要 PASS）
 - 完成这道 lab 的经历：心路历程、阶段成果、踩过的坑……（不要知识点的堆砌）
 - 参考资料
 
